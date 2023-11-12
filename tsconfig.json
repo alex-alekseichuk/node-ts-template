@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ESNext",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "strict": true,
+    "incremental": true,
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "types": ["node"],
+    "sourceMap": true,
+    "lib": [
+      "dom",
+      "esnext",
+    ],
+  },
+  "filesGlob": [
+    "**/*.ts"
+  ],
+  "exclude": ["node_modules", "dist"]
+}

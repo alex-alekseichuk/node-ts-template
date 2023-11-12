@@ -1,0 +1,21 @@
+{
+  "name": "node-ts-template",
+  "version": "1.0.0",
+  "description": "Template of Node.js TS project with prettier.",
+  "main": "main.js",
+  "scripts": {
+    "start:dev": "ts-node-dev --respawn src/main.ts",
+    "build": "tsc --project tsconfig.json",
+    "start": "node dist/main.js",
+    "format": "prettier --write src/**/*.{ts,js,tsx}"
+  },
+  "keywords": [],
+  "author": "alex.alekseichuk@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "prettier": "^3.0.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
